@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="head">
+        <div class="logo">
+            LOGO
+        </div>
+        <nav class="navigar">
+             <a class="hhh" href="#Home">Home</a>
+             <a class="hhh" href="#">Franchise</a>
+             <a class="hhh" href="#Franchise">Products</a>
+             <a class="hhh" href="#AboutUs">About Us</a>
+             <a class="hhh" href="#Contactus">Contact Us</a>
+            <a class="phone" onclick=showside() href="#" class="losds"><svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 -960 960 960" width="44"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+        </nav>
+        <nav class="hide lossu">
+            <a onclick=closeside()><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+            <a href="#Home">Home</a>
+            <a href="#">Franchise</a>
+            <a href="#Franchise">Products</a>
+            <a href="#AboutUs">About Us</a>
+            <a href="#Contactus">Contact Us</a>
+       </nav>
+    </header>
+
+    <section>
+
+    </section>
+    
+    <section>
+        
+    </section>
+    <script>
+        function showside(){
+            const side=document.querySelector('.hide');
+            side.style.display='flex';
+            //side.style.display='flex';
+        }
+        function closeside(){
+            const cl=document.querySelector('.hide');
+            cl.style.display='none';
+        }
+    </script>
+</body>
+</html>
